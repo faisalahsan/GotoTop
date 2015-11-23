@@ -1,7 +1,7 @@
 # GotoTop
-==========
+Demo 
+http://embed.plnkr.co/I9AiqzTihhVE2dAtvH8B/preview
 ## How to use 
--------------
 1. Include plugin folder in your project.
 2. Add plugin.js in project
 3. Intialize the plugin
@@ -12,7 +12,6 @@
 	```
 
 ## How to add parameters
-------------------------
 	$().goToUp({
 		up_arrow_btn_background:'rgba(216, 15, 15, 0.701961)',
 		search_row_background:'rgba(216, 15, 78, 0.701961)',
@@ -23,7 +22,6 @@
 	});
 
 ## Available parameters
------------------------
 |  Parameter    			| Value Format	 				   | Description  |
 | ------------------------- |:--------------------------------:| ------------------------------------:|
 | up_arrow_btn_background   | rgba(140, 80, 147, 0.7), #2d2d2d | background color for goto top button |
@@ -43,8 +41,6 @@
 			var seachKeyWord = $('#goto-top-search-field').val();
 		});
 ```
-Demo 
-http://embed.plnkr.co/I9AiqzTihhVE2dAtvH8B/preview
 ## Future
 Custom goToUp
 
