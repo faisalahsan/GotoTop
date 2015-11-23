@@ -43,5 +43,9 @@
 			var seachKeyWord = $('#goto-top-search-field').val();
 		});
 ```
+Demo 
+http://embed.plnkr.co/I9AiqzTihhVE2dAtvH8B/preview
 ## Future
 Custom goToUp
+
+Feel free to add more functionality, to take part in open source community
