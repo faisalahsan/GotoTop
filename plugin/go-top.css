@@ -20,7 +20,7 @@
 		border-radius:2px;
 		width: 175px;
 	}
-	#searchtop-btn .row input[type="submit"] {
+	#searchtop-btn .row input[type="button"] {
 		border: none;
 		background: url('search.png') no-repeat;
 		height: 24px;
@@ -63,4 +63,19 @@
 	fieldset {
 		border: none;
 		margin: 0;
+	}
+
+	.highlight {
+	    background-color: #fff34d;
+	    -moz-border-radius: 5px; /* FF1+ */
+	    -webkit-border-radius: 5px; /* Saf3-4 */
+	    border-radius: 5px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* FF3.5+ */
+	    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* Saf3.0+, Chrome */
+	    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* Opera 10.5+, IE 9.0 */
+	}
+
+	.highlight {
+	    padding:1px 4px;
+	    margin:0 -4px;
 	}
