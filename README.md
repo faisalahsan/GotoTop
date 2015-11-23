@@ -1,7 +1,7 @@
 # GotoTop
-==========
+Demo 
+http://embed.plnkr.co/I9AiqzTihhVE2dAtvH8B/preview
 ## How to use 
--------------
 1. Include plugin folder in your project.
 2. Add plugin.js in project
 3. Intialize the plugin
@@ -12,7 +12,6 @@
 	```
 
 ## How to add parameters
-------------------------
 	$().goToUp({
 		up_arrow_btn_background:'rgba(216, 15, 15, 0.701961)',
 		search_row_background:'rgba(216, 15, 78, 0.701961)',
@@ -23,7 +22,6 @@
 	});
 
 ## Available parameters
------------------------
 |  Parameter    			| Value Format	 				   | Description  |
 | ------------------------- |:--------------------------------:| ------------------------------------:|
 | up_arrow_btn_background   | rgba(140, 80, 147, 0.7), #2d2d2d | background color for goto top button |
@@ -33,15 +31,9 @@
 | bottom      				| 50px      					   | bottm position for plugin panel      |
 | right 					| 50px      					   | right position for plugin panel      |
 
-## How to use goto-top search box
-``` 
-	$('#goto-top-search-field').on( 'keypress', function(){
-			// your logic i.e. use ajax call to fetch data
-		});
-	$('#goto-top-search-btn').on('click',function(){
-			// your logic i.e. use ajax call to fetch data
-			var seachKeyWord = $('#goto-top-search-field').val();
-		});
-```
+## search box
+type something in searchbox
 ## Future
 Custom goToUp
+
+Feel free to add more functionality, to take part in open source community
