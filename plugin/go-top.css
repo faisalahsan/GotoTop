@@ -1,0 +1,66 @@
+#wrapper {
+		margin: 0 auto;
+		width:1000px;
+		position: relative;
+		display: none;;
+	}
+	#searchtop-btn {
+	    width: 260px;
+	    overflow: hidden;
+	    position: fixed;
+	    right: 0;
+	    bottom: 0;
+	}
+	form {
+		float: left;
+	}
+	#searchtop-btn .row {
+		padding: 8px;
+		overflow: hidden;
+		border-radius:2px;
+		width: 175px;
+	}
+	#searchtop-btn .row input[type="submit"] {
+		border: none;
+		background: url('search.png') no-repeat;
+		height: 24px;
+		width: 24px;
+		display: block;
+		float: left;
+		margin-left: 8px;
+		cursor: pointer;
+	}
+	#searchtop-btn .row input[type="search"] {
+		float: right;
+		border: none;
+		background: #fff;
+		width: 120px;
+		height: 25px;
+		font-size: 12px;
+		line-height: 15px;
+		font-style: italic;
+		color: #000;
+		padding:3px 15px;
+	}
+	#go-top {
+		padding: 5px;
+		border-radius: 2px;
+		position: relative;
+		height: 30px;
+		width: 30px;
+		float: left;
+		margin-top: 7px;
+	}
+	#go-top:after {
+		position: absolute;
+		left: 8px;
+		top: 9px;
+		content: '';
+		background: url('download.png');
+		height: 24px;
+		width: 24px;
+	}
+	fieldset {
+		border: none;
+		margin: 0;
+	}
